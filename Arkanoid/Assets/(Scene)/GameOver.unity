@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Congratulation, you lose...? Oh don't worry, you can try again
+  m_Text: Congratulations, you lose...? Oh don't worry, you can try again
 --- !u!222 &55193162
 CanvasRenderer:
   m_ObjectHideFlags: 0
