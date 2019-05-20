@@ -1039,8 +1039,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.034482718, g: 1, b: 0, a: 1}
-    m_PressedColor: {r: 0.88235295, g: 0.78498983, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.9058824, g: 0.53333336, b: 0.45882356, a: 1}
+    m_PressedColor: {r: 0.21176472, g: 0.16078432, b: 0.21568629, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1095,7 +1095,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 33
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 265
     m_Alignment: 1
