@@ -819,7 +819,7 @@ GameObject:
   - component: {fileID: 1421753302}
   - component: {fileID: 1421753304}
   m_Layer: 0
-  m_Name: ball3
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -937,6 +937,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paddle1: {fileID: 815868892}
+  xPush: 2
+  yPush: 15
+  rb: {fileID: 1421753302}
+  hasStarted: 0
 --- !u!1 &1547060265
 GameObject:
   m_ObjectHideFlags: 0
