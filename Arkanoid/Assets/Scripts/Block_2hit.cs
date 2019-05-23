@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Block_2hits : MonoBehaviour
+public class Block_2hit : MonoBehaviour
 {
     public Rigidbody2D ball;
     public Sprite Block_Square;
+    public Sprite Block_Broken_1;
     public Sprite Block_Broken_2;
     private SpriteRenderer cc;
 
-    public int hitsNeeded = 2;
+    public int hitsNeeded = 3;
     public int hitsTaken;
 
 
@@ -17,7 +18,7 @@ public class Block_2hits : MonoBehaviour
     {
         hitsTaken = 0;
         cc = GetComponent<SpriteRenderer>();
-       
+
     }
 
 
@@ -25,9 +26,13 @@ public class Block_2hits : MonoBehaviour
     {
         if (hitsTaken == 1)
         {
-            cc.sprite = Block_Broken_2;
+            cc.sprite = Block_Broken_1;
         }
 
+        if (hitsTaken == 2)
+        {
+            cc.sprite = Block_Broken_2;
+        }
     }
 
 
@@ -38,9 +43,10 @@ public class Block_2hits : MonoBehaviour
 
         if (hitsTaken >= hitsNeeded)
         {
-            Destroy(gameObject); 
+            Destroy(gameObject);
         }
-        
-        
+
+
     }
 }
+
