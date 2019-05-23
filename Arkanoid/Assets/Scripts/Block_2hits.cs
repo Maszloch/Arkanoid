@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Block : MonoBehaviour
-{ 
+public class Block_2hits : MonoBehaviour
+{
     public Rigidbody2D ball;
 
 
